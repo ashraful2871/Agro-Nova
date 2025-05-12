@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const links = (
@@ -43,19 +44,21 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="flex gap-2 items-center">
-          <img
-            className="w-20 border rounded-xl"
-            src="https://i.ibb.co.com/jn244Tm/logo.png"
-            alt=""
-          />
-          <a className=" text-xl">Aro Nova</a>
+          <Link>
+            <img
+              className="w-20 border rounded-xl"
+              src="https://i.ibb.co.com/jn244Tm/logo.png"
+              alt=""
+            />
+          </Link>
+          <a className=" text-2xl font-bold"></a>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Button</a>
+        <a className="btn hidden">Button</a>
       </div>
     </div>
   );

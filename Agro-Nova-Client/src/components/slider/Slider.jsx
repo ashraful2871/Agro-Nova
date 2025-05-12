@@ -10,6 +10,9 @@ import "./slider.css";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 
+import slide1 from "../../../public/picture/Green and White Organic Fruits and Vegetables YouTube Thumbnail.png";
+import slide2 from "../../../public/picture/veggetable.jpg";
+import slide3 from "../../../public/picture/Mangoe.webp";
 const Slider = () => {
   return (
     <>
@@ -26,17 +29,25 @@ const Slider = () => {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className=" h-[400px] border-2 border-red-500 rounded-2xl"
+        className=" h-[200px] md:h-[500px] rounded-2xl"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide>
+        <SwiperSlide>
+          <div className="w-full">
+            {" "}
+            <img src={slide1} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div>
+            <img src={slide2} alt="" />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          {" "}
+          <div>
+            <img src={slide3} alt="" />
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );

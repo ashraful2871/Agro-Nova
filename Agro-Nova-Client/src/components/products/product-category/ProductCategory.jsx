@@ -1,4 +1,3 @@
-import React from "react";
 const categories = [
   {
     title: "Breakfast & Snacks",
@@ -7,28 +6,28 @@ const categories = [
   },
   {
     title: "Fish & Meat",
-    image: "../../../public/picture/fish and meat.jpg",
+    image: "https://i.ibb.co.com/jCqMQyF/fish-and-meat.jpg",
     bg: "bg-yellow-50",
   },
   {
     title: "Fruits",
-    image: "../../../public/picture/fruts.jpeg",
+    image: "https://i.ibb.co.com/xtvyL2L0/fruts.jpg",
     bg: "bg-lime-50",
   },
   {
     title: "Kitchen & Cooking",
-    image: "../../../public/picture/kitchen and cooking.jpg",
+    image: "https://i.ibb.co.com/fcFv13V/kitchen-and-cooking.jpg",
     bg: "bg-sky-50",
   },
   {
     title: "Mango",
-    image: "../../../public/picture/Mangoe.webp",
+    image: "https://i.ibb.co.com/20HRJNS0/Mangoe.jpg",
     bg: "bg-green-50",
   },
 
   {
     title: "Vegetables",
-    image: "../../../public/picture/vegetables.webp",
+    image: "https://i.ibb.co.com/WvkQvYLc/vegetables.webp",
     bg: "bg-yellow-100",
   },
 ];
