@@ -10,6 +10,7 @@ const Fruits = () => {
           View All
         </a>
       </div>
+
       <FruitsCard></FruitsCard>
     </>
   );
