@@ -44,7 +44,7 @@ const Navbar = () => {
         </div>
         <div className="flex gap-2 items-center">
           <img
-            className="w-20 border rounded-xl border-red-500"
+            className="w-20 border rounded-xl"
             src="https://i.ibb.co.com/jn244Tm/logo.png"
             alt=""
           />
