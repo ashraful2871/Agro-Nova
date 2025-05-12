@@ -6,12 +6,12 @@ import { getAuth } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBROR2akOO4IY8RLHyTTj_ETAztC9A2svg",
-  authDomain: "agro-nova.firebaseapp.com",
-  projectId: "agro-nova",
-  storageBucket: "agro-nova.firebasestorage.app",
-  messagingSenderId: "695784753140",
-  appId: "1:695784753140:web:590734c80e5d541bd89ba1",
+  apiKey: import.meta.env.VITE_apiKey,
+  authDomain: import.meta.env.VITE_authDomain,
+  projectId: import.meta.env.VITE_projectId,
+  storageBucket: import.meta.env.VITE_storageBucket,
+  messagingSenderId: import.meta.env.VITE_messagingSenderId,
+  appId: import.meta.env.VITE_appId,
 };
 
 // Initialize Firebase
