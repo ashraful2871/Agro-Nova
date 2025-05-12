@@ -2,7 +2,7 @@ import React from "react";
 const categories = [
   {
     title: "Breakfast & Snacks",
-    image: "/images/snacks.png",
+    image: "https://i.ibb.co.com/DPwTthPs/Breakfast-Snacks.jpg",
     bg: "bg-rose-50",
   },
   {
@@ -25,8 +25,7 @@ const categories = [
     image: "../../../public/picture/Mangoe.webp",
     bg: "bg-green-50",
   },
-  { title: "Monthly Bazar", image: "/images/monthly.png", bg: "bg-amber-50" },
-  { title: "Organic Herbals", image: "/images/herbals.png", bg: "bg-pink-50" },
+
   {
     title: "Vegetables",
     image: "../../../public/picture/vegetables.webp",
@@ -49,14 +48,14 @@ const ProductCategory = () => {
         {categories.map((cat, idx) => (
           <div
             key={idx}
-            className={`card shadow-sm hover:shadow-md transition duration-300 ${cat.bg} rounded-xl border border-red-500 `}
+            className={`card shadow-sm hover:shadow-md transition duration-300 ${cat.bg} rounded-xl  border`}
           >
-            <div className="card-body flex flex-row gap-4 items-center text-center border border-red-500">
+            <div className="card-body flex flex-row gap-4 items-center text-center ">
               <div className="w-20 h-20 rounded-full">
                 <img
                   src={cat.image}
                   alt={cat.title}
-                  className="w-20 h-20 rounded-full  mb-3 border border-red-500"
+                  className="w-20 h-20 rounded-full  mb-3 "
                 />
               </div>
               <h3 className="text-xl font-medium">{cat.title}</h3>
